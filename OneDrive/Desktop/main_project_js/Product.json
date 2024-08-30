@@ -1,0 +1,88 @@
+{
+    "product":[
+        {
+            "image":"https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg",
+            "title":"Camera",
+            "price":"25000",
+            "rating":"3.5",
+            "desc":"Sony-DXR"
+        },
+        {
+            "image":"https://images.pexels.com/photos/1474234/pexels-photo-1474234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "title":"Mobile",
+            "price":"15000",
+            "rating":"4.5",
+            "desc":"Blackberry-ZTE"
+        },
+        {
+            "image":"https://images.pexels.com/photos/3707744/pexels-photo-3707744.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "title":"Iphone",
+            "price":"80000",
+            "rating":"5.0",
+            "desc":"Iphone 15"
+        },
+        {
+            "image":"https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "title":"Watch",
+            "price":"2500",
+            "rating":"4.5",
+            "desc":"Rodeo"
+        },
+        {
+            "image":"https://images.pexels.com/photos/18105/pexels-photo.jpg",
+            "title":"Laptop",
+            "price":"60000",
+            "rating":"4.5",
+            "desc":"Lenovo Thinkpad"
+        },
+        {
+            "image":"https://images.pexels.com/photos/11178057/pexels-photo-11178057.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "title":"Drone",
+            "price":"1,00,000",
+            "rating":"4.0",
+            "desc":"Beetel Drone with inbuilt camera"
+        },
+        {
+            "image":"https://images.pexels.com/photos/430208/pexels-photo-430208.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "title":"Cctv Camera",
+            "price":"20000",
+            "rating":"3.5",
+            "desc":"Sony Street cctv camera"
+        },
+        {
+            "image":"https://images.pexels.com/photos/4144179/pexels-photo-4144179.jpeg",
+            "title":"VR-camcorder",
+            "price":"8000",
+            "rating":"3.0",
+            "desc":"Samsung-VR"
+        },
+        {
+            "image":"https://images.pexels.com/photos/3862634/pexels-photo-3862634.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "title":"Gaming Console",
+            "price":"18000",
+            "rating":"3.5",
+            "desc":"HCL gaming console"
+        },
+        {
+            "image":"https://images.pexels.com/photos/302655/pexels-photo-302655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+            "title":"Microphone",
+            "price":"1500",
+            "rating":"4.5",
+            "desc":"Toshiba wireless microphone"
+        },
+        {
+            "image":"https://images.pexels.com/photos/322207/pexels-photo-322207.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "title":"Combo-Outfit",
+            "price":"2500",
+            "rating":"4.5",
+            "desc":"Louis Vuitton Combo Fashion Deal"
+        },
+        {
+            "image":"https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "title":"Sneakers Shoes",
+            "price":"1500",
+            "rating":"4.5",
+            "desc":"Nike sneakers shoes"
+        }
+    ]
+}
