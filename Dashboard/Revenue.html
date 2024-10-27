@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizon</title>
+    <script src="https://kit.fontawesome.com/8de99c9367.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="assets/image/mylogo.jpg">
+    <link rel="stylesheet" href="desktopcss/Revenue.css">
+    <link rel="stylesheet" href="mobilecss/Revenuemobile.css">
+</head>
+<body>
+    <!-- Top nav start here -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/image/logo2.webp" alt="error">
+            </div>
+            <div class="hero">
+                <a href="Profile.html"><img src="assets/image/atul.jpg" alt="error"></a>
+            </div>
+        </nav>
+    </header>
+    <!-- top nav end here -->
+
+    <!-- admin controller menu start here -->
+    <aside>
+        <button onclick="fun1()" class="btn1" id="btn1"><i class="fa-solid fa-xmark"></i></button>
+        <button onclick="fun2()" class="btn2" id="btn2"><i class="fa-solid fa-bars"></i></button>
+        <div class="admin-menu" id="menu">
+            <ul class="menu">
+                <li><a href="Dashboard.html" target="">Dashboard</a></li>
+                <span></span>
+                <li><a href="Admin-control.html" target="">Admin-Control</a></li>
+                <span></span>
+                <li><a href="Revenue.html" target="">Revenue</a></li>
+                <span></span>
+                <li><a href="Profit-loss.html" target="">Profit-Loss</a></li>
+                <span></span>
+                <li><a href="Sale.html" target="">Sale-Summary</a></li>
+                <span></span>
+                <li><a href="Logistic.html" target="">Logistics</a></li>
+                <span></span>
+            </ul>
+        </div>
+        <div class="home">
+            <div class="home1">
+                <div class="per">
+                    <span class="per1">100k</span>
+                    <span class="per2">200k</span>
+                    <span class="per3">300k</span>
+                    <span class="per4">400k</span>
+                    <span class="per5">500k</span>
+                </div>
+                <div class="graph">
+                    <div class="part1"></div>
+                    <div class="part2"></div>
+                    <div class="part3"></div>
+                    <div class="part4"></div>
+                    <div class="part5"></div>
+                    <div class="part6"></div>
+                </div>
+                <div class="stats">
+                    <span class="line1"></span>
+                    <i class="fa-solid fa-circle dot1"></i>
+                    <span class="line2"></span>
+                    <i class="fa-solid fa-circle dot2"></i>
+                    <span class="line3"></span>
+                    <i class="fa-solid fa-circle dot3"></i>
+                    <span class="line4"></span>
+                    <i class="fa-solid fa-circle dot4"></i>
+                    <span class="line5"></span>
+                    <i class="fa-solid fa-greater-than dot5"></i>
+                </div>
+                <div class="year">
+                    <span class="year1">2019</span>
+                    <span class="year1">2021</span>
+                    <span class="year1">2020</span>
+                    <span class="year1">2022</span>
+                    <span class="year1">2023</span>
+                    <span class="year1">2024</span>
+                </div>
+                <div class="report">Annual revenue (in thousands)</div>
+            </div>
+        </div>
+    </aside>
+
+
+    <script>
+        let y=document.getElementById("menu");
+        let a=document.getElementById("btn1");
+        let b=document.getElementById("btn2");
+        function fun2(){
+            y.style.left="0%";
+            a.style.zIndex="2";
+            a.style.display="block";
+            b.style.zIndex="0";
+            
+
+        }
+        function fun1(){
+            y.style.left="-100%";
+            b.style.zIndex="2";
+            a.style.zIndex="0";
+            
+        }
+    </script>
+</body>
+</html>

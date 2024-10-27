@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizon</title>
+    <script src="https://kit.fontawesome.com/8de99c9367.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="assets/image/mylogo.jpg">
+    <link rel="stylesheet" href="desktopcss/Dashboard.css">
+    <link rel="stylesheet" href="mobilecss/Dashboardmobile.css">
+</head>
+
+<body>
+    <!-- Top nav start here -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/image/logo2.webp" alt="error">
+            </div>
+            <div class="hero">
+                <a href="Profile.html"><img src="assets/image/atul.jpg" alt="error"></a>
+            </div>
+        </nav>
+    </header>
+    <!-- top nav end here -->
+
+    <!-- admin controller menu start here -->
+    <aside>
+        <button onclick="fun1()" class="btn1" id="btn1"><i class="fa-solid fa-xmark"></i></button>
+        <button onclick="fun2()" class="btn2" id="btn2"><i class="fa-solid fa-bars"></i></button>
+        <div class="admin-menu" id="menu">
+            <ul class="menu">
+                <li><a href="Dashboard.html" target="">Dashboard</a></li>
+                <span></span>
+                <li><a href="Admin-control.html" target="">Admin-Control</a></li>
+                <span></span>
+                <li><a href="Revenue.html" target="">Revenue</a></li>
+                <span></span>
+                <li><a href="Profit-loss.html" target="">Profit-loss</a></li>
+                <span></span>
+                <li><a href="Sale.html" target="">Sale-Summary</a></li>
+                <span></span>
+                <li><a href="Logistic.html" target="">Logistics</a></li>
+                <span></span>
+            </ul>
+        </div>
+        <div class="home">
+            <div class="home1">
+                <div class="home-top">
+                    <div class="greetings">
+                        <h2>Hello Atul !</h2>
+                        <h6>Welcome back and explore the World!</h6>
+                    </div>
+                    <div class="search">
+                        <input type="search" class="search-box" placeholder="Search Here" required>
+                        <a href="#" class="btn"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                    <div class="notify">
+                        <a href="#"><i class="fa-solid fa-bell"></i><i class="fa-solid fa-circle dot"></i></a>
+                    </div>
+                </div>
+                <div class="home-bottom">
+                    <div class="upper">
+                        <div class="box">
+                            <a href="#"><i class="fa-solid fa-users"></i>Employees</a>
+                            <span>6000</span>
+                        </div>
+                        <div class="box">
+                            <a href="#"><i class="fa-brands fa-product-hunt"></i>Products</a>
+                            <span>100000</span>
+                        </div>
+                        <div class="box">
+                            <a href="#"><i class="fa-solid fa-handshake-angle"></i>Partners</a>
+                            <span>200</span>
+                        </div>
+                        <div class="box">
+                            <a href="#"><i class="fa-solid fa-chart-simple"></i>Revenue</a>
+                            <span>50%<i class="fa-solid fa-up-long"></i></span>
+                        </div>
+                        
+                    </div>
+                    <div class="lower">
+                        <span class="user">Users Overview</span>
+                        <div class="box1">
+                            <div class="box-left">
+                                <span class="up">100k</span>
+                                <span class="down">Total user</span>
+                            </div>
+                            <div class="box-right">
+                                <span>1%<i class="fa-solid fa-up-long"></i></span>
+                            </div>
+                        </div>
+                        <div class="box1">
+                            <div class="box-left">
+                                <span class="up">10k</span>
+                                <span class="down">New user</span>
+                            </div>
+                            <div class="box-right">
+                                <span>10%<i class="fa-solid fa-up-long"></i></span>
+                            </div>
+                        </div>
+                        <div class="box1">
+                            <div class="box-left">
+                                <span class="up">1000k</span>
+                                <span class="down">Orders</span>
+                            </div>
+                            <div class="box-right">
+                                <span>60%<i class="fa-solid fa-up-long"></i></span>
+                            </div>
+                        </div>
+                        <div class="box1">
+                            <div class="box-left">
+                                <span class="up">100k</span>
+                                <span class="down">Profit-Loss</span>
+                            </div>
+                            <div class="box-right">
+                                <span>51%<i class="fa-solid fa-up-long"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </aside>
+    <script>
+        let y=document.getElementById("menu");
+        let a=document.getElementById("btn1");
+        let b=document.getElementById("btn2");
+        function fun2(){
+            y.style.left="0%"
+            a.style.zIndex="2";
+            a.style.display="block";
+            b.style.zIndex="0";
+            
+
+        }
+        function fun1(){
+            y.style.left="-100%"
+            b.style.zIndex="2";
+            a.style.zIndex="0";
+            
+        }
+    </script>
+</body>
+
+</html>

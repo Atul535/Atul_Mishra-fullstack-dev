@@ -1,0 +1,340 @@
+@media (max-width:420px)
+{
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    
+    header{
+        height: 10vh;
+        width: 100%;
+        background-color: rgb(17, 28, 44);
+        position: fixed;
+        z-index: 1;
+        box-sizing: border-box;
+        border: inset 1px rgb(17, 28, 4);
+    }
+    header nav{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: flex;
+    }
+    header nav .logo{
+        height: 100%;
+        width: 50%;
+        position: relative;
+    }
+    header nav .logo img{
+        height: 85%;
+        width: 32%;
+        position: relative;
+        left: 4%;
+        top: 6%;
+        border-radius: 10px;
+        border: 1px solid whitesmoke;
+    }
+    header nav .hero{
+        height: 100%;
+        width: 50%;
+        position: relative;
+    }
+    header nav .hero img{
+        height: 85%;
+        width: 29%;
+        position: relative;
+        left: 66%;
+        top: 7%;
+        border-radius: 50%;
+        border: 1px solid whitesmoke;
+    }
+    
+    aside{
+        height: 90vh;
+        width: 100%;
+        top: 10vh;
+        position: fixed;
+        background-color: transparent;
+        display: flex;
+    }
+    aside .btn1{
+        position: absolute;
+        border-radius: 8px;
+        height: 4%;
+        z-index: 2;
+        width: 10%;
+        display: none;
+        left: 35%;
+        border: none;
+        top: 0%;
+        font-size: x-large;
+        background-color: rgb(17, 28, 44);
+        box-shadow: 0px 1px 4px 2px grey;
+        color: whitesmoke;
+        font-weight: bolder;
+    }
+    aside .btn2{
+        position: absolute;
+        border-radius: 8px;
+        height: 4%;
+        z-index: 2;
+        width: 10%;
+        display: block;
+        left: 2%;
+        border: none;
+        top: 1%;
+        font-size: x-large;
+        background-color: rgb(17, 28, 44);
+        box-shadow: 0px 1px 4px 2px grey;
+        color: whitesmoke;
+        font-weight: bolder;
+    }
+    aside .admin-menu{
+        height: 100%;
+        width: 46%;
+        left: -100%;
+        display: flex;
+        position: absolute;
+        z-index: 1;
+        background-color: rgb(17, 28, 44);
+    }
+    aside .admin-menu .menu{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        padding-top: 10%;
+        display: flex;
+        flex-direction: column;
+    }
+    aside .admin-menu .menu span{
+        position: relative;
+        height: 2px;
+        width: 90%;
+        display: flex;
+        border-top: 2px solid whitesmoke;
+        left: 5%;
+        padding-bottom: 5%;
+    }
+    aside .admin-menu .menu li a{
+        list-style: none;
+        color: aliceblue;
+        text-decoration: none;
+        padding-left: 20%;
+        top: 25px;
+        font-size: larger;
+        justify-content: space-between;
+        position: relative;
+        display: flex;
+        padding-bottom: 30px;
+    }
+    aside .home{
+        height: 100%;
+        width:100% ;
+        display: flex;
+        position: relative;
+        background-color: rgb(36,72,86);;
+    }
+    aside .home .home1{
+        height: 100%;
+        width:100%;
+        display: flex;
+        position: relative;
+        padding-left: 10%;
+    }
+    aside .home .home1 .per{
+        position: absolute;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 67px;
+        top: 36%;
+        left: 3%;
+        font-weight: bold;
+        color: whitesmoke;
+    }
+    aside .home .home1 .graph{
+        gap: 12%;
+        height: 80%;
+        width: 80%;
+        display: flex;
+        position: absolute;
+        left: 14%;
+        top: 10%;
+        box-shadow: 6px -6px 2px;
+        padding-left: 4%;
+        border-left: 4px solid black;
+        border-bottom: 4px solid black;
+        background-color: rgb(31, 31, 31);
+    }
+    aside .home .home1 .graph .part1{
+        display: flex;
+        position: relative;
+        height: 35%;
+        width: 5%;
+        background-color: rgb(75,167,182);
+        top: 65%;
+    }
+    aside .home .home1 .graph .part2{
+        display: flex;
+        position: relative;
+        height: 55%;
+        width: 5%;
+        background-color: rgb(75,167,182);
+        top: 45%;
+    }
+    aside .home .home1 .graph .part3{
+        display: flex;
+        position: relative;
+        height: 45%;
+        width: 5%;
+        background-color: rgb(75,167,182);
+        top: 55%;
+    }
+    aside .home .home1 .graph .part4{
+        display: flex;
+        position: relative;
+        height: 65%;
+        width: 5%;
+        background-color: rgb(75,167,182);
+        top: 35%;
+    }
+    aside .home .home1 .graph .part5{
+        display: flex;
+        position: relative;
+        height: 60%;
+        width: 5%;
+        background-color: rgb(75,167,182);
+        top: 40%;
+    }
+    aside .home .home1 .graph .part6{
+        display: flex;
+        position: relative;
+        height: 65%;
+        width: 5%;
+        background-color: rgb(75,167,182);
+        top: 35%;
+    }
+    aside .home .home1 .stats{
+        position: absolute;
+        height: 44%;
+        width: 78%;
+        left: 17.5%;
+        top: 9%;
+        display: flex;
+    }
+    aside .home .home1 .stats .line1{
+        display: flex;
+        position: absolute;
+        height: 2%;
+        top: 97%;
+        left: -13%;
+        width: 47%;
+        border-top: 2px solid white;
+        transform: rotate(110deg);
+    }
+    aside .home .home1 .stats .line2{
+        display: flex;
+        position: absolute;
+        height: 2%;
+        top: 88%;
+        left: 12%;
+        width: 30%;
+        border-top: 2px solid white;
+        transform: rotate(52deg);
+    }
+    aside .home .home1 .stats .line3{
+        display: flex;
+        position: absolute;
+        height: 2%;
+        top: 78%;
+        left: 21%;
+        width: 45%;
+        border-top: 2px solid white;
+        transform: rotate(108deg);
+    }
+    aside .home .home1 .stats .line4{
+        display: flex;
+        position: absolute;
+        height: 2%;
+        top: 65%;
+        left: 49%;
+        width: 21%;
+        border-top: 2px solid white;
+        transform: rotate(43deg);
+    }
+    aside .home .home1 .stats .line5{
+        display: flex;
+        position: absolute;
+        height: 2%;
+        top: 64%;
+        left: 66%;
+        width: 22%;
+        border-top: 2px solid white;
+        transform: rotate(139deg);
+    }
+    aside .home .home1 .stats .dot1{
+        position: absolute;
+        color: white;
+        font-size: 10px;
+        left: 17%;
+        top: 76%;
+    }
+    aside .home .home1 .stats .dot2{
+        position: absolute;
+        color: white;
+        font-size: 10px;
+        left: 35%;
+        top: 98%;
+    }
+    aside .home .home1 .stats .dot3{
+        position: absolute;
+        color: white;
+        font-size: 10px;
+        left: 50%;
+        top: 57%;
+    }
+    aside .home .home1 .stats .dot4{
+        position: absolute;
+        color: white;
+        font-size: 10px;
+        left: 67%;
+        top: 71%;
+    }
+    aside .home .home1 .stats .dot5{
+        position: absolute;
+        color: white;
+        font-size: 16px;
+        left: 85%;
+        top: 55.5%;
+        transform: rotate(318deg);
+    }
+    
+    aside .home .home1 .year{
+        width: 72%;
+        height: 4%;
+        position: relative;
+        display: flex;
+        background-color: transparent;
+        top: 91%;
+        left: 10%;
+        justify-content: space-around;
+        color: whitesmoke;
+    }
+    aside .home .home1 .year .year1{
+        display: flex;
+        position: relative;
+        padding-left: 5%;
+        right: 7%;
+        font-weight: bolder;
+    }
+    aside .home .home1 .report{
+        position: absolute;
+        font-weight: bolder;
+        color: aliceblue;
+        transform: none;
+        left: 27%;
+        top: 4%;
+    }
+    
+}

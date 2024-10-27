@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(17, 28, 44);
+    position: fixed;
+    z-index: 1;
+    box-sizing: border-box;
+    border: inset 1px rgb(17, 28, 4);
+}
+header nav{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+}
+header nav .logo{
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+header nav .logo img{
+    height: 90%;
+    width: 15%;
+    position: relative;
+    left: 7%;
+    top: 3px;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+}
+header nav .hero{
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+header nav .hero img{
+    height: 90%;
+    width: 9%;
+    position: relative;
+    left: 87%;
+    top: 3px;
+    border-radius: 50%;
+    border: 1px solid whitesmoke;
+}
+
+aside{
+    height: 90vh;
+    width: 100%;
+    top: 10vh;
+    position: fixed;
+    background-color: transparent;
+    display: flex;
+}
+aside .btn1, .btn2{
+    display: none;
+}
+aside .admin-menu{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    position: relative;
+    background-color: rgb(17,28,44);
+}
+aside .admin-menu .menu{
+    width: 100%;
+    position: relative;
+    display: flex;
+    padding-top: 10%;
+    flex-direction: column;
+}
+aside .admin-menu .menu span{
+    position: relative;
+    height: 2px;
+    width: 90%;
+    display: flex;
+    border-top: 2px solid whitesmoke;
+    left: 5%;
+    padding-bottom: 5%;
+}
+aside .admin-menu .menu li a{
+    list-style: none;
+    color: aliceblue;
+    text-decoration: none;
+    padding-left: 20%;
+    top: 25px;
+    font-size: larger;
+    justify-content: space-between;
+    position: relative;
+    display: flex;
+    padding-bottom: 30px;
+}
+aside .home{
+    height: 100%;
+    width:85% ;
+    display: flex;
+    position: relative;
+    background-color: rgb(36,72,86);
+}
+aside .home .home1{
+    height: 100%;
+    width:100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+aside .home .home1 img{
+    height: 96%;
+    width: 97%;
+    display: flex;
+    position: relative;
+    box-shadow: 1px 0px 25px 1px black;
+}

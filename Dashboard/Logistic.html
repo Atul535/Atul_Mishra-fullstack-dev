@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizon</title>
+    <script src="https://kit.fontawesome.com/8de99c9367.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="assets/image/mylogo.jpg">
+    <link rel="stylesheet" href="desktopcss/Logistic.css">
+    <link rel="stylesheet" href="mobilecss/Logisticmobile.css">
+</head>
+
+<body>
+    <!-- Top nav start here -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/image/logo2.webp" alt="error">
+            </div>
+            <div class="hero">
+                <a href="Profile.html"><img src="assets/image/atul.jpg" alt="error"></a>
+            </div>
+        </nav>
+    </header>
+    <!-- top nav end here -->
+
+    <!-- admin controller menu start here -->
+    <aside>
+        <button onclick="fun1()" class="btn1" id="btn1"><i class="fa-solid fa-xmark"></i></button>
+        <button onclick="fun2()" class="btn2" id="btn2"><i class="fa-solid fa-bars"></i></button>
+        <div class="admin-menu" id="menu">
+            <ul class="menu">
+                <li><a href="Dashboard.html" target="">Dashboard</a></li>
+                <span></span>
+                <li><a href="Admin-control.html" target="">Admin-Control</a></li>
+                <span></span>
+                <li><a href="Revenue.html" target="">Revenue</a></li>
+                <span></span>
+                <li><a href="Profit-loss.html" target="">Profit-loss</a></li>
+                <span></span>
+                <li><a href="Sale.html" target="">Sale-Summary</a></li>
+                <span></span>
+                <li><a href="Logistic.html" target="">Logistics</a></li>
+                <span></span>
+            </ul>
+        </div>
+        <div class="home">
+            <div class="home1">
+                <img src="assets/image/logictics.jpg" alt="error">
+            </div>
+        </div>
+    </aside>
+
+
+
+    <script>
+        let y=document.getElementById("menu");
+        let a=document.getElementById("btn1");
+        let b=document.getElementById("btn2");
+        function fun2(){
+            y.style.left="0%"
+            a.style.zIndex="2";
+            a.style.display="block";
+            b.style.zIndex="0";
+            
+
+        }
+        function fun1(){
+            y.style.left="-100%"
+            b.style.zIndex="2";
+            a.style.zIndex="0";
+            
+        }
+    </script>
+</body>
+
+</html>

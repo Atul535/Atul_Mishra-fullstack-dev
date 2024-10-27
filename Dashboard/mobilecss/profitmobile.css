@@ -1,0 +1,373 @@
+@media (max-width:420px)
+{
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    
+    header{
+        height: 10vh;
+        width: 100%;
+        background-color: rgb(17, 28, 44);
+        position: fixed;
+        z-index: 1;
+        box-sizing: border-box;
+        border: inset 1px rgb(17, 28, 4);
+    }
+    header nav{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: flex;
+    }
+    header nav .logo{
+        height: 100%;
+        width: 50%;
+        position: relative;
+    }
+    header nav .logo img{
+        height: 85%;
+        width: 32%;
+        position: relative;
+        left: 4%;
+        top: 6%;
+        border-radius: 10px;
+        border: 1px solid whitesmoke;
+    }
+    header nav .hero{
+        height: 100%;
+        width: 50%;
+        position: relative;
+    }
+    header nav .hero img{
+        height: 85%;
+        width: 29%;
+        position: relative;
+        left: 66%;
+        top: 7%;
+        border-radius: 50%;
+        border: 1px solid whitesmoke;
+    }
+    
+    aside{
+        height: 90vh;
+        width: 100%;
+        top: 10vh;
+        position: fixed;
+        background-color: transparent;
+        display: flex;
+    }
+    aside .btn1{
+        position: absolute;
+        border-radius: 8px;
+        height: 4%;
+        z-index: 2;
+        width: 10%;
+        display: none;
+        left: 35%;
+        border: none;
+        top: 0%;
+        font-size: x-large;
+        background-color: rgb(17, 28, 44);
+        box-shadow: 0px 1px 4px 2px grey;
+        color: whitesmoke;
+        font-weight: bolder;
+    }
+    aside .btn2{
+        position: absolute;
+        border-radius: 8px;
+        height: 4%;
+        z-index: 2;
+        width: 10%;
+        display: block;
+        left: 2%;
+        border: none;
+        top: 1%;
+        font-size: x-large;
+        background-color: rgb(17, 28, 44);
+        box-shadow: 0px 1px 4px 2px grey;
+        color: whitesmoke;
+        font-weight: bolder;
+    }
+    aside .admin-menu{
+        height: 100%;
+        width: 46%;
+        left: -100%;
+        display: flex;
+        position: absolute;
+        z-index: 1;
+        background-color: rgb(17, 28, 44);
+    }
+    aside .admin-menu .menu{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        padding-top: 10%;
+        display: flex;
+        flex-direction: column;
+    }
+    aside .admin-menu .menu span{
+        position: relative;
+        height: 2px;
+        width: 90%;
+        display: flex;
+        border-top: 2px solid whitesmoke;
+        left: 5%;
+        padding-bottom: 5%;
+    }
+    aside .admin-menu .menu li a{
+        list-style: none;
+        color: aliceblue;
+        text-decoration: none;
+        padding-left: 20%;
+        top: 25px;
+        font-size: larger;
+        justify-content: space-between;
+        position: relative;
+        display: flex;
+        padding-bottom: 30px;
+    }
+    aside .home{
+        height: 100%;
+        width:100% ;
+        display: flex;
+        position: relative;
+        background-color: rgb(36,72,86);;
+    }
+    aside .home .home1{
+        height: 100%;
+        width:100%;
+        display: flex;
+        position: relative;
+    }
+    aside .home .home1 .per{
+        position: absolute;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 50px;
+        top: 27%;
+        left: 1%;
+        font-weight: bold;
+        color: whitesmoke;
+    }
+    aside .home .home1 .graph{
+        gap: 5%;
+        height: 50%;
+        width: 85%;
+        display: flex;
+        position: absolute;
+        left: 12%;
+        top: 22%;
+        box-shadow: 6px -6px 2px;
+        padding-left: 4%;
+        border-left: 4px solid black;
+        border-bottom: 4px solid black;
+        background-color: rgb(31, 31, 31);
+    }
+    aside .home .home1 .graph .sec1, .sec2, .sec3, .sec4, .sec5{
+        display: flex;
+        position: relative;
+        height: 95%;
+        width: 15%;
+        background-color: transparent;
+        box-shadow: 0px 1px 6px 1px gray;
+        top: 3%;
+        justify-content: space-around;
+    }
+    aside .home .home1 .graph .sec1 .part1{
+        display: flex;
+        position: relative;
+        height: 50%;
+        width: 30%;
+        background-color: rgb(169, 11, 11);
+        top: 50%;
+    }
+    aside .home .home1 .graph .sec1 .part2{
+        display: flex;
+        position: relative;
+        height: 80%;
+        width: 30%;
+        background-color: rgb(13, 124, 13);
+        top: 20%;
+    }
+    aside .home .home1 .graph .sec2 .part1{
+        display: flex;
+        position: relative;
+        height: 60%;
+        width: 30%;
+        background-color: rgb(169, 11, 11);
+        top: 40%;
+    }
+    aside .home .home1 .graph .sec2 .part2{
+        display: flex;
+        position: relative;
+        height: 65%;
+        width: 30%;
+        background-color: rgb(13, 124, 13);
+        top: 35%;
+    }
+    aside .home .home1 .graph .sec3 .part1{
+        display: flex;
+        position: relative;
+        height: 50%;
+        width: 30%;
+        background-color: rgb(169, 11, 11);
+        top: 50%;
+    }
+    aside .home .home1 .graph .sec3 .part2{
+        display: flex;
+        position: relative;
+        height: 55%;
+        width: 30%;
+        background-color: rgb(13, 124, 13);
+        top: 45%;
+    }
+    aside .home .home1 .graph .sec4 .part1{
+        display: flex;
+        position: relative;
+        height: 60%;
+        width: 30%;
+        background-color: rgb(169, 11, 11);
+        top: 40%;
+    }
+    aside .home .home1 .graph .sec4 .part2{
+        display: flex;
+        position: relative;
+        height: 70%;
+        width: 30%;
+        background-color: rgb(13, 124, 13);
+        top: 30%;
+    }
+    aside .home .home1 .graph .sec5 .part1{
+        display: flex;
+        position: relative;
+        height: 70%;
+        width: 30%;
+        background-color: rgb(169, 11, 11);
+        top: 30%;
+    }
+    aside .home .home1 .graph .sec5 .part2{
+        display: flex;
+        position: relative;
+        height: 40%;
+        width: 30%;
+        background-color: rgb(13, 124, 13);
+        top: 60%;
+    }
+    aside .home .home1 .year{
+        width: 68%;
+        height: 4%;
+        position: absolute;
+        display: flex;
+        background-color: transparent;
+        top: 73%;
+        gap: 0%;
+        left: 11%;
+        color: whitesmoke;
+        justify-content: space-around;
+    }
+    aside .home .home1 .year .year1{
+        display: flex;
+        position: relative;
+        left: 6%;
+        font-weight: bolder;
+    }
+    aside .home .home1 .year .year2{
+        display: flex;
+        position: relative;
+        left: 10%;
+        font-weight: bolder;
+    }
+    aside .home .home1 .year .year3{
+        display: flex;
+        position: relative;
+        left: 14%;
+        font-weight: bolder;
+    }
+    aside .home .home1 .year .year4{
+        display: flex;
+        position: relative;
+        left: 18%;
+        font-weight: bolder;
+    }
+    aside .home .home1 .year .year5{
+        display: flex;
+        position: relative;
+        left: 22%;
+        font-weight: bolder;
+    }
+    aside .home .home1 .indicator{
+        display: block;
+        position: absolute;
+        background-color: transparent;
+        height: 13%;
+        width: 35%;
+        left: 70%;
+        top: 84%;
+    }
+    aside .home .home1 .indicator .indicator1{
+        display: flex;
+        position: relative;
+        height: 50%;
+        width: 100%;
+        justify-content: space-evenly;
+        top: 3px;
+    }
+    aside .home .home1 .indicator .indicator2{
+        display: flex;
+        position: relative;
+        height: 50%;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    aside .home .home1 .indicator .indicator1 .green{
+        display: flex;
+        position: relative;
+        box-sizing: border-box;
+        border: 1px solid black;
+        background-color: rgb(13, 124, 13);
+        height: 15px;
+        width: 15%;
+    }
+    aside .home .home1 .indicator .indicator1 .col1{
+        display: flex;
+        position: relative;
+        height: 50%;
+        width: 45%;
+        font-size: 13px;
+        color: whitesmoke;
+        font-weight: bolder;
+    }
+    
+    aside .home .home1 .indicator .indicator2 .red{
+        display: flex;
+        position: relative;
+        box-sizing: border-box;
+        border: 1px solid black;
+        background-color: rgb(169, 11, 11);
+        height: 15px;
+        width: 15%;
+    }
+    aside .home .home1 .indicator .indicator2 .col2{
+        display: flex;
+        position: relative;
+        height: 50%;
+        width: 45%;
+        font-size: 13px;
+        color: whitesmoke;
+        font-weight: bolder;
+    }
+    aside .home .home1 .annual{
+        height: 5%;
+        width: 56%;
+        position: absolute;
+        left: 30%;
+        top: 15%;
+        display: flex;
+        color: whitesmoke;
+        font-weight: bold;
+    }
+    
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizon</title>
+    <script src="https://kit.fontawesome.com/8de99c9367.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="assets/image/mylogo.jpg">
+    <link rel="stylesheet" href="desktopcss/Profit.css">
+    <link rel="stylesheet" href="mobilecss/profitmobile.css">
+</head>
+<body>
+    <!-- Top nav start here -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/image/logo2.webp" alt="error">
+            </div>
+            <div class="hero">
+                <a href="Profile.html"><img src="assets/image/atul.jpg" alt="error"></a>
+            </div>
+        </nav>
+    </header>
+    <!-- top nav end here -->
+
+    <!-- menu start here -->
+    <aside>
+        <button onclick="fun1()" class="btn1" id="btn1"><i class="fa-solid fa-xmark"></i></button>
+        <button onclick="fun2()" class="btn2" id="btn2"><i class="fa-solid fa-bars"></i></button>
+        <div class="admin-menu" id="menu">
+            <ul class="menu">
+                <li><a href="Dashboard.html" target="">Dashboard</a></li>
+                <span></span>
+                <li><a href="Admin-control.html" target="">Admin-Control</a></li>
+                <span></span>
+                <li><a href="Revenue.html" target="">Revenue</a></li>
+                <span></span>
+                <li><a href="Profit-loss.html" target="">Profit-loss</a></li>
+                <span></span>
+                <li><a href="Sale.html" target="">Sale-Summary</a></li>
+                <span></span>
+                <li><a href="Logistic.html" target="">Logistics</a></li>
+                <span></span>
+            </ul>
+        </div>
+        <div class="home">
+            <div class="home1">
+                <div class="per">
+                    <span class="per1">20%</span>
+                    <span class="per2">40%</span>
+                    <span class="per3">60%</span>
+                    <span class="per4">80%</span>
+                    <span class="per5">100%</span>
+                </div>
+                <div class="graph">
+                    <div class="sec1">
+                        <div class="part1"></div>
+                        <div class="part2"></div>
+                    </div>
+                    <div class="sec2">
+                        <div class="part1"></div>
+                        <div class="part2"></div>
+                    </div>
+                    <div class="sec3">
+                        <div class="part1"></div>
+                        <div class="part2"></div>
+                    </div>
+                    <div class="sec4">
+                        <div class="part1"></div>
+                        <div class="part2"></div>
+                    </div>
+                    <div class="sec5">
+                        <div class="part1"></div>
+                        <div class="part2"></div>
+                    </div>
+                </div>
+                <div class="year">
+                    <span class="year1">2019</span>
+                    <span class="year2">2020</span>
+                    <span class="year3">2021</span>
+                    <span class="year4">2022</span>
+                    <span class="year5">2023</span>
+                </div>
+                <div class="indicator">
+                    <div class="indicator1">
+                        <div class="green"></div>
+                    <span class="col1">Profit</span>
+                    </div>
+                    <div class="indicator2">
+                        <div class="red"></div>
+                    <span class="col2">Loss</span>
+                    </div>
+                </div>
+                <div class="annual">Profit-Loss(Annually)</div>
+                
+            </div>
+        </div>
+    </aside>
+
+    <script>
+        let y=document.getElementById("menu");
+        let a=document.getElementById("btn1");
+        let b=document.getElementById("btn2");
+        function fun2(){
+            y.style.left="0%"
+            a.style.zIndex="2";
+            a.style.display="block";
+            b.style.zIndex="0";
+            
+
+        }
+        function fun1(){
+            y.style.left="-100%"
+            b.style.zIndex="2";
+            a.style.zIndex="0";
+            
+        }
+    </script>
+</body>
+</html>
