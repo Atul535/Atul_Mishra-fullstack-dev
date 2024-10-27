@@ -1,0 +1,19 @@
+{
+    "nav":[
+        {
+            "logo":"assets/image/logo2.webp"
+        }
+    ],
+    "bg":[
+        {
+            "vid":"assets/video/ecommerce.mp4"
+        }
+    ],
+    "log":[
+        {
+            "username":"atul",
+            "pass":"atul123"
+        }
+    ]
+
+}
