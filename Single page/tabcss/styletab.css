@@ -1,0 +1,902 @@
+@media (min-width:421px) and (max-width:720px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+        font-family: 'Outfit',sans-serif;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    
+    /* header section starts */
+    
+    
+    header{
+        width: 100%;
+        height: 15vh;
+        background-color:black ;
+        display: flex;
+        position: fixed;
+        z-index: 1;
+    }
+    header .title{
+        width: 20%;
+        height: 100%;
+        background-color:transparent ;
+        display: flex;
+        position: relative;
+    }
+    header .title a{
+        width: 100%;
+        height: 100%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 23px;
+        font-weight: bold;
+        position: relative;
+        text-decoration: none;
+    }
+    header .menu{
+        height: 100%;
+        width: 80%;
+        display: flex;
+        position: relative;
+        gap: 4%;
+    } 
+    header .menu li{
+        list-style: none;
+        position: relative;
+        display: flex;
+        left: 10%;
+    }
+    header .menu li a{
+        position: relative;
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+        justify-content: center;
+        font-size: large;
+        color: aliceblue;
+    }
+    header .menu li .buy{
+        height: 1%;
+        width: 100%;
+        display: flex;
+        position: relative;
+        background-color: rgb(238, 80, 7);
+        border-radius: 23px;
+        padding: 15px;
+        font-size: 13px;
+        top: 38%;
+    }
+    header .menu li .buy:hover{
+        color: white;
+        background-color: rgb(149, 51, 5);
+    }
+    header .menu li a:hover{
+        color: rgb(238,80,7);
+    }
+    header .btn1, .btn2{
+        display: none;
+    }
+    
+    
+    /* video section starts */
+    
+    
+    .vid{
+        width: 100%;
+        height: 85vh;
+        position: relative;
+        display: flex;
+        top: 15vh;
+        background-color: transparent;
+        justify-content: center;
+        align-items: center;
+    }
+    .vid video{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        /* display: flex; */
+        object-fit: cover;
+    }
+    .vid h4{
+        position: absolute;
+        color: white;
+        top: 28%;
+        font-size: 15px;
+    }
+    .vid h1{
+        position: absolute;
+        color: white;
+        font-size: 80px;
+        font-weight: bolder;
+        top: 32%;
+        letter-spacing: -3px;
+    }
+    .vid li{
+        list-style: none;
+        position: absolute;
+        display: flex;
+        top: 62%;
+        width: 44%;
+        height: 9%;
+        align-items: center;
+        justify-content: center;
+    }
+    .vid li a{
+        height: 100%;
+        width: 32%;
+        text-decoration: none;
+        color: white;
+        display: flex;
+        position: relative;
+        background-color: rgb(238, 80, 7);
+        border-radius: 23px;
+        font-size: 13px;
+        font-weight: bold;
+        align-items: center;
+        justify-content: center;
+        left: 2%;
+    }
+    .vid .time{
+        position: absolute;
+        color: white;
+        top: 83%;
+        height: 10%;
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 0%;
+        font-size: 17px;
+        font-weight: bold;
+        gap: 4%;
+    }
+    .vid .time i{
+        position: relative;
+        left: 2%;
+        font-weight: normal;
+        color: rgb(238, 80, 7);
+    }
+    .vid .time span{
+        position: relative;
+        left: 4%;
+        bottom: 3%;
+    }
+    .vid .venue{
+        position: absolute;
+        color: white;
+        top: 83%;
+        height: 10%;
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 17px;
+        font-weight: bold;
+        left: 30%;
+        gap: 4%;
+    }
+    .vid .venue i{
+        color: rgb(238, 80, 7);
+        position: relative;
+        left: 5%;
+    }
+    .vid .venue span{
+        position: relative;
+        left: 5%;
+    }
+    .vid .social{
+        position: absolute;
+        color: white;
+        top: 84%;
+        height: 8%;
+        width: 33%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        gap: 9%;
+        left: 64%;
+    }
+    .vid .social span{
+        position: relative;
+    }
+    .vid .social a{
+        position: relative;
+        position: relative;
+        width: 19%;
+        height: 78%;
+        border-radius: 50%;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        color: white;
+        align-items: center;
+        background-color: rgb(238, 80, 7);
+    }
+    .vid .social a:hover{
+        background-color: rgb(248,203,46);
+       
+    }
+    .vid .social a i:hover{
+        animation-name: round;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+       
+    }
+    
+    @keyframes round {
+        from{
+            rotate:0deg;
+        }
+        to{
+            rotate:360deg;
+        }
+    }
+    
+    /* about section starts here */
+    
+    .about{
+        width: 100%;
+        height: 100vh;
+        top: 15vh;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .about img{
+        width: 100%;
+        height: 100%;
+    }
+    .about h1{
+        position: absolute;
+        color: white;
+        font-size: 30px;
+        font-weight: bolder;
+        top: 20%;
+        left: 5%;
+    }
+    .about span{
+        width: 42%;
+        height: 5%;
+        position: absolute;
+        color: white;
+        font-size: 13px;
+        top: 29%;
+        left: 5%;
+    }
+    .about h2{
+        position: absolute;
+        color: white;
+        left: 5%;
+        top: 45%;
+        font-size: 22px;
+    }
+    .about .span1{
+        width: 42%;
+        height: 5%;
+        position: absolute;
+        color: white;
+        font-size: 15px;
+        top:48%;
+        left: 5%;
+    }
+    .about .h2{
+        position: absolute;
+        color: whitesmoke;
+        left: 5%;
+        top: 64%;
+    }
+    .about .span2{
+        width: 42%;
+        height: 5%;
+        position: absolute;
+        color: white;
+        font-size: 15px;
+        top: 69%;
+        left: 5%;
+    }
+    .about .img1{
+        position: absolute;
+        height: 55%;
+        width: 47%;
+        left: 50%;
+        top: 20%;
+        border-radius: 25px;
+    }
+    .about .over-img{
+        position: absolute;
+        display: flex;
+        height: 17%;
+        width: 41%;
+        top: 56%;
+        left: 53%;
+        border-radius: 25px;
+        background-color: white;
+        opacity: 0.9;
+    }
+    .about .over-img span{
+        position: relative;
+        display: flex;
+        background-color: rgb(248, 203, 46);
+        width: 19%;
+        height: 40%;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        left: 2%;
+        top: 28%;
+    }
+    .about .over-img span i{
+        position: relative;
+        font-size: 24px;
+        color: black;
+    }
+    .about .over-img .over2{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 80%;
+        left: 3%;
+    }
+    .about .over-img .over2 .h1{
+        color: black;
+        font-weight: 800;
+        display: flex;
+        position: relative;
+        font-size: 22px;
+        left: 5%;
+        top: 23%;
+    }
+    .about .over-img .over2 .exp{
+        position: relative;
+        display: flex;
+        top: 27%;
+        left: 6%;
+        height: 44%;
+        width: 88%;
+        color: gray;
+        font-size: 15px;
+    }
+    .artists{
+        width: 100%;
+        height: 140vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        top: 15vh;
+    }
+    .artists .top{
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 18%;
+        font-size: 40px;
+        font-weight: 800;
+        justify-content: center;
+        align-items: end;
+    }
+    .artists .bottom{
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 70%;
+    }
+    .artists .bottom .left{
+        height: 100%;
+        width: 50%;
+        position: relative;
+        display: flex;
+    }
+    .artists .bottom .left img{
+        position: relative;
+        left: 25%;
+        border-radius: 20px;
+        height: 100%;
+        width: 70%;
+    }
+    .artists .bottom .right{
+        height: 100%;
+        width: 50%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 4%;
+    }
+    .artists .bottom .right img{
+        height: 46%;
+        width: 80%;
+        position: relative;
+        display: flex;
+        border-radius: 20px;
+    }
+    .schedule{
+        width: 100%;
+        height: 140vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        top: 15vh;
+        justify-content: center;
+        align-items: center;
+    }
+    .schedule .img2{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+    .schedule .top1{
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 18%;
+        font-size: 40px;
+        font-weight: 800;
+        justify-content: center;
+        align-items: end;
+        color: white;
+        bottom: 2%;
+    }
+    .schedule .bottom1{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 96%;
+        height: 70%;
+        background-color: rgb(33,37,41);
+    }
+    .schedule .bottom1 .head{
+        width: 100%;
+        height: 16%;
+        display: flex;
+        position: relative;
+        background-color: rgb(238, 80, 7);
+    }
+    .schedule .bottom1 .head .head1{
+        width: 10%;
+        height: 100%;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: 600;
+        border-right: 1px solid rgb(59, 58, 58);
+    }
+    .schedule .bottom1 .head .head2{
+        height: 100%;
+        width: 33%;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: 600;
+        border-right: 1px solid rgb(59, 58, 58);
+    }
+    .schedule .bottom1 .head .head3{
+        height: 100%;
+        width: 24%;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: 600;
+        border-right: 1px solid rgb(59, 58, 58);
+    }
+    .schedule .bottom1 .head .head4{
+        height: 100%;
+        width: 33%;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: 600;
+        border-right: 1px solid rgb(59, 58, 58);
+    }
+    .schedule .bottom1 .row-a{
+        width: 100%;
+        height: 28%;
+        display: flex;
+        position: relative;
+        border-bottom: 1px solid rgb(59, 58, 58);
+    }
+    .schedule .bottom1 .row-a .row1{
+        width: 10%;
+        height: 100%;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: 600;
+        border-right: 1px solid rgb(59, 58, 58);
+    }
+    .schedule .bottom1 .row-a .row2{
+        height: 100%;
+        width: 33%;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: 600;
+        border-right: 1px solid rgb(59, 58, 58);
+    }
+    .schedule .bottom1 .row-a .row2 img{
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+    .schedule .bottom1 .row-a .row2 h1{
+        position: absolute;
+        top: 15%;
+        font-size: 35px;
+    }
+    .schedule .bottom1 .row-a .row2 h2{
+        position: absolute;
+        top: 45%;
+        font-size: 20px;
+        font-weight: 100;
+    }
+    .schedule .bottom1 .row-a .row2 h3{
+        position: absolute;
+        top: 65%;
+        font-weight: 100;
+    }
+    .schedule .bottom1 .row-a .row3{
+        height: 100%;
+        width: 24%;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: 600;
+        background-color: rgb(243,220,212);
+        border-right: 1px solid rgb(59, 58, 58);
+    }
+    .schedule .bottom1 .row-a .row4{
+        height: 100%;
+        width: 33%;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: 600;
+        border-right: 1px solid rgb(59, 58, 58);
+    }
+    .schedule .bottom1 .row-a .row4 h1{
+        position: absolute;
+        top: 15%;
+        font-size: 35px;
+    }
+    .schedule .bottom1 .row-a .row4 h2{
+        position: absolute;
+        top: 45%;
+        font-size: 20px;
+        font-weight: 100;
+    }
+    .schedule .bottom1 .row-a .row4 h3{
+        position: absolute;
+        top: 65%;
+        font-weight: 100;
+    }
+    .schedule .bottom1 .row-a .row4 img{
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+    .schedule .bottom1 .row-b{
+        width: 100%;
+        height: 28%;
+        display: flex;
+        position: relative;
+        border-bottom: 1px solid rgb(59, 58, 58);
+    }
+    .schedule .bottom1 .row-b .row1{
+        width: 10%;
+        height: 100%;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: 600;
+        border-right: 1px solid rgb(59, 58, 58);
+    }
+    .schedule .bottom1 .row-b .row2{
+        height: 100%;
+        width: 33%;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(236,201,199);
+        font-weight: 600;
+        border-right: 1px solid rgb(59, 58, 58);
+    }
+    .schedule .bottom1 .row-b .row3{
+        height: 100%;
+        width: 24%;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: 600;
+        border-right: 1px solid rgb(59, 58, 58);
+    }
+    .schedule .bottom1 .row-b .row3 h1{
+        position: absolute;
+        top: 15%;
+        font-size: 35px;
+    }
+    .schedule .bottom1 .row-b .row3 h2{
+        position: absolute;
+        top: 45%;
+        font-size: 20px;
+        font-weight: 100;
+    }
+    .schedule .bottom1 .row-b .row3 h3{
+        position: absolute;
+        top: 65%;
+        font-weight: 100;
+    }
+    .schedule .bottom1 .row-b .row4{
+        height: 100%;
+        width: 33%;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        background-color:rgb(217,227,218);
+        font-weight: 600;
+        border-right: 1px solid rgb(59, 58, 58);
+    }
+    .schedule .bottom1 .row-c{
+        width: 100%;
+        height: 28%;
+        display: flex;
+        position: relative;
+        border-bottom: 1px solid rgb(59, 58, 58);
+    }
+    .schedule .bottom1 .row-c .row1{
+        width: 10%;
+        height: 100%;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: 600;
+        border-right: 1px solid rgb(59, 58, 58);
+    }
+    .schedule .bottom1 .row-c .row2{
+        height: 100%;
+        width: 33%;
+        display: flex;
+        position: relative;
+        align-items: center;
+        color: white;
+        justify-content: center;
+        font-weight: 600;
+        border-right: 1px solid rgb(59, 58, 58);
+    }
+    .schedule .bottom1 .row-c .row2 img{
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+    .schedule .bottom1 .row-c .row2 h1{
+        position: absolute;
+        top: 15%;
+        font-size: 35px;
+    }
+    .schedule .bottom1 .row-c .row2 h2{
+        position: absolute;
+        top: 45%;
+        font-size: 20px;
+        font-weight: 100;
+    }
+    .schedule .bottom1 .row-c .row2 h3{
+        position: absolute;
+        top: 65%;
+        font-weight: 100;
+    }
+    .schedule .bottom1 .row-c .row3{
+        height: 100%;
+        width: 24%;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(209,207,192);
+        font-weight: 600;
+        border-right: 1px solid rgb(59, 58, 58);
+    }
+    .schedule .bottom1 .row-c .row4{
+        height: 100%;
+        width: 33%;
+        display: flex;
+        position: relative;
+        align-items: center;
+        color: white;
+        justify-content: center;
+        font-weight: 600;
+        border-right: 1px solid rgb(59, 58, 58);
+    }
+    .schedule .bottom1 .row-c .row4 h1{
+        position: absolute;
+        top: 15%;
+        font-size: 35px;
+    }
+    .schedule .bottom1 .row-c .row4 h2{
+        position: absolute;
+        top: 45%;
+        font-size: 20px;
+        font-weight: 100;
+    }
+    .schedule .bottom1 .row-c .row4 h3{
+        position: absolute;
+        top: 65%;
+        font-weight: 100;
+    }
+    
+    
+    /* footer section starts here */
+    
+    
+    footer{
+        width: 100%;
+        height: 80vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        top: 15vh;
+    }
+    footer .top{
+        width: 100%;
+        height: 35%;
+        background-color: rgb(238,80,7);
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    footer .top h1{
+        height: 100%;
+        width: 35%;
+        position: relative;
+        display: flex;
+        padding-left: 5%;
+        padding-top: 29%;
+        color: white;
+        font-size: 36px;
+        font-weight: 800;
+    
+    }
+    footer .top .links{
+        position: relative;
+        display: flex;
+        height: 100%;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        gap: 13%;
+    }
+    footer .top .links a{
+        position: relative;
+        width: 4%;
+        height: 32%;
+        border-radius: 50%;
+        text-decoration: none;
+        display: flex;
+        top: 11%;
+        justify-content: center;
+        color: white;
+        align-items: center;
+        background-color: rgb(238, 80, 7);
+    }
+    footer .top .links a i{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        font-size: xx-large;
+    
+    }
+    footer .top .links a:hover{
+        background-color: rgb(248,203,46);
+       
+    }
+    footer .top .links a i:hover{
+        animation-name: round;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+    footer .bottom{
+        width: 100%;
+        height: 65%;
+        background-color: black;
+        position: relative;
+        display: flex;
+    }
+    footer .bottom .left{
+        height: 100%;
+        width: 50%;
+        position: relative;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    footer .bottom .left h1{
+        color: rgb(248, 203, 46);
+        position: relative;
+        top: 32%;
+        font-size: 25px;
+    }
+    footer .bottom .left h2{
+        position: relative;
+        top: 38%;
+        font-size: 19px;
+        color: white;
+        font-weight: 100;
+    }
+    footer .bottom .left h3{
+        position: relative;
+        top: 55%;
+        font-size: 13px;
+        color: white;
+        font-weight: 100;
+    }
+    footer .bottom .left h2:hover{
+        color: rgb(149, 51, 5);
+    }
+    footer .bottom .left h3:hover{
+        color: rgb(149, 51, 5);
+    }
+    footer .bottom .right{
+        height: 100%;
+        width: 50%;
+        position: relative;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    footer .bottom .right h1{
+        color: rgb(248, 203, 46);
+        position: relative;
+        top: 32%;
+        font-size: 25px;
+    }
+    footer .bottom .right h2{
+        position: relative;
+        top: 38%;
+        font-size: 19px;
+        color: white;
+        font-weight: 100;
+        padding-bottom: 1%;
+    }
+    footer .bottom .right h3{
+        position: relative;
+        top: 53%;
+        font-size: 13px;
+        color: white;
+        font-weight: 100;
+    }
+    footer .bottom .right h2:hover{
+        color: rgb(149, 51, 5);
+    }
+    footer .bottom .right h3:hover{
+        color: rgb(149, 51, 5);
+    }
+}
