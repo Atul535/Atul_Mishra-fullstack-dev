@@ -1,0 +1,317 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
+}
+
+/* Styles for the outer div */
+.outer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(10, 31, 62);
+}
+
+/* Styles for the inner div */
+.outer .inner {
+  height: 40%;
+  width: 20%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(9, 16, 31);
+  padding: 20px;
+  border-radius: 15px;
+  flex-direction: column;
+  box-shadow: inset -1px 1px 12px -3px white;
+}
+
+/* Styles for the input fields */
+.outer .inner .inp {
+  width: 200px;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+/* Styles for the button */
+.outer .inner button {
+  padding: 10px 20px;
+  background-color: rgb(80, 80, 130);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.outer .inner button:hover {
+  background-color: rgb(62, 62, 96);
+}
+
+/* ================= Homepage css ================== */
+
+#outer {
+  width: 100%;
+  height: 100vh;
+  justify-content: space-evenly;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: rgb(10, 31, 62);
+}
+
+#outer h2 {
+  position: absolute;
+  color: white;
+  top: 25%;
+  left: 9%;
+  text-decoration: underline;
+}
+
+#outer #h2 {
+  position: absolute;
+  color: white;
+  top: 25%;
+  left: 40%;
+  text-decoration: underline;
+}
+#outer .h2 {
+  position: absolute;
+  display: none;
+  color: white;
+  top: 25%;
+  left: 75%;
+  text-decoration: underline;
+}
+
+#outer #inner {
+  height: 50%;
+  width: 20%;
+  display: flex;
+  top: 12%;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(9, 16, 31);
+  padding: 20px;
+  border-radius: 15px;
+  flex-direction: column;
+  box-shadow: inset -1px 1px 12px -3px white;
+}
+
+/* Styles for the input fields */
+#outer #inner #inp {
+  width: 200px;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+/* Styles for the button */
+#outer #inner button {
+  padding: 10px 20px;
+  background-color: rgb(80, 80, 130);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.outer .inner button:hover {
+  background-color: rgb(62, 62, 96);
+}
+
+
+
+/* Styles for the navbar */
+.navbar {
+  width: 100%;
+  height: 15vh;
+  position: absolute;
+  top: 0%;
+  z-index: 1;
+  background-color: rgb(9, 16, 31);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px -3px 15px 0px white;
+}
+
+/* Styles for the button */
+.navbar button {
+  height: 40%;
+  width: 6%;
+  background-color: rgb(201, 59, 59);
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  position: relative;
+  left: 45%;
+}
+
+.navbar button:hover {
+  background-color: red;
+}
+
+::placeholder {
+  color: #2d2c2c;
+}
+
+#outer #srch {
+  width: 25%;
+  height: 6vh;
+  top: 5%;
+  padding-left: 2%;
+  padding-right: 4%;
+  border-radius: 20px;
+  border: none;
+  z-index: 2;
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(46, 57, 72);
+}
+
+#outer .search {
+  width: 9%;
+  height: 10vh;
+  position: absolute;
+  left: 56%;
+  top: 3%;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+}
+
+#outer #srch::placeholder {
+  color: white;
+}
+
+
+/* Product list css */
+
+#outer #inner1 {
+  height: 50%;
+  width: 30%;
+  top: 12%;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(9, 16, 31);
+  padding: 20px;
+  flex-direction: column;
+  box-shadow: inset -1px 1px 12px -3px white;
+}
+
+#outer #inner1 table {
+  width: 100%;
+  text-align: left;
+}
+
+#outer #inner1 table thead tr {
+  background-color: rgb(20, 40, 80);
+  color: white;
+  position: relative;
+  top: 2%;
+  text-justify: center;
+}
+
+#outer #inner1 table thead th {
+  padding: 10px;
+  text-align: center;
+}
+
+#outer #inner1 table tbody tr:nth-child(even) {
+  background-color: rgb(15, 30, 60);
+}
+
+#outer #inner1 table tbody tr td {
+  padding: 10px;
+  color: white;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#outer #inner1 table tbody tr td button {
+  padding: 5px 10px;
+  position: relative;
+  border: none;
+  background-color: rgb(200, 50, 50);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: rgb(255, 70, 70);
+}
+
+
+
+/* searched results css */
+
+#outer #inner2 {
+  height: 50%;
+  width: 30%;
+  display: none;
+  top: 12%;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(9, 16, 31);
+  padding: 20px;
+  flex-direction: column;
+  box-shadow: inset -1px 1px 12px -3px white;
+}
+
+#outer #inner2 table {
+  width: 100%;
+  text-align: left;
+}
+
+#outer #inner2 table thead tr {
+  background-color: rgb(20, 40, 80);
+  color: white;
+  position: relative;
+  top: 2%;
+  text-justify: center;
+}
+
+#outer #inner2 table thead tr th {
+  padding: 10px;
+  text-align: center;
+}
+
+#outer #inner2 table tbody tr:nth-child(even) {
+  background-color: rgb(15, 30, 60);
+  
+}
+
+#outer #inner2 table tbody tr td {
+  padding: 10px;
+  color: white;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
